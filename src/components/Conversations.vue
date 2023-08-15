@@ -52,7 +52,7 @@ onMounted(() => {
             display: flex;
             align-items: flex-end;
             width: 100%;
-            max-width: 60%;
+            max-width: 90%;
             gap: 12px;
 
             &:last-child {
@@ -107,6 +107,10 @@ onMounted(() => {
                 padding: 8px;
                 border-radius: 8px;
                 white-space: pre-line;
+            }
+
+            @media (min-width: 620px) { 
+                max-width: 60%;
             }
         }
 

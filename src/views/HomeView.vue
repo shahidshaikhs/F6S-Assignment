@@ -33,6 +33,7 @@ main {
     border-radius: 10px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.234);
     padding: 10px;
+    margin: 0 10px;
   }
 }
 </style>
